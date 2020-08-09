@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    <title>Comment</title>
+{% endblock %}
+
+{% block content %}
+      <h1 class="card-text  display-4 font-italic text-danger font-weight-bold" >Just Food</h1>
+    <p class="card-text  font-italic text-danger font-weight-bold" >Feel free to express your views and suggestions</p>
+    <div class="card-text">
+        {% include "partials/_form.html" %}
+    <div>
+{% endblock %}
